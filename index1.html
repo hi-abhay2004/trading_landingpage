@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0px;
+            background: url(./pierre-borthiry-peiobty-vBCVcWUyvyM-unsplash.jpg) no-repeat center;
+            background-size: cover;
+            width: 100%;
+            height: 100vh;
+            z-index: -1;
+            display: block;
+        }
+
+        @media (max-width:397px) {
+            * {
+                display: none;
+            }
+        }
+
+        .navbar {
+            width: 100vw;
+            height: 50px;
+            margin: 0px;
+            background-color: black;
+            position: absolute;
+        }
+
+        .navbar ul {
+            position: absolute;
+            display: flex;
+            top: -12px;
+            right: 5%;
+        }
+
+        .navbar ul li {
+            padding: 10px;
+            list-style-type: none;
+            font-size: 18px;
+        }
+
+        .navbar nav ul li a {
+            color: yellow;
+            text-decoration: none;
+            padding: 7px;
+            border: 2px solid yellow;
+            border-radius: 4px;
+        }
+
+        .navbar nav ul li a:hover {
+            color: black;
+            background-color: yellow;
+            text-decoration: underline;
+
+        }
+
+        .navbar nav a h2 {
+            color: yellow;
+            text-decoration: none;
+            padding: 0px 23px;
+            margin: 12px
+        }
+
+        .container {
+            position: relative;
+            color: white;
+            display: flex;
+            justify-content: center;
+            top: 20%;
+        }
+
+        .container h1 {
+            font-size: 50px;
+            background: linear-gradient(to left,
+
+
+
+                    green,
+                    yellow,
+                    orange,
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+
+        .container p {
+            font-size: 40px;
+            position: absolute;
+            top: 40%;
+            background: linear-gradient(to left,
+
+                    green,
+
+                    red);
+            -webkit-background-clip: text;
+            color: transparent;
+        }
+        
+        
+       
+        @media(max-width:420px) {
+
+
+            .navbar {
+                background-color: black;
+                height: 40px;
+
+            }
+
+            .navbar ul {
+                position: absolute;
+                display: flex;
+                top: -17px;
+                right: 5%;
+            }
+
+            .navbar ul li {
+                padding: 10px;
+                list-style-type: none;
+                font-size: 17px;
+            }
+
+            .navbar ul li a {
+                color: white;
+                text-decoration: none;
+            }
+
+            .navbar nav a h2 {
+                display: none;
+            }
+
+            .navbar nav ul li a {
+                padding: 4px 8px;
+            }
+
+            .navbar nav ul li a:hover {
+                color: black;
+                background-color: yellow;
+                text-decoration: underline;
+
+            }
+
+            .container h1 {
+                font-size: 25px;
+                background: linear-gradient(to left,
+
+
+
+                        green,
+                        yellow,
+                        orange,
+                        red);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+
+            .container p {
+                font-size: 20px;
+                position: absolute;
+                top: 40%;
+                background: linear-gradient(to left,
+
+                        green,
+                        white red);
+                -webkit-background-clip: text;
+                color: transparent;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+
+        <nav>
+            <a href="#">
+                <h2>SolutionM4</h2>
+            </a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Company</a></li>
+                <li><a href="">Pricing</a></li>
+                <li><a href="">About</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="container">
+        <h1>Welcome to The World of Money</h1>
+        <p>Gate way to success</p>
+    </div>
+  
+</body>
+
+</html>
